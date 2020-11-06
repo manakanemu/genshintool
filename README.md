@@ -9,7 +9,7 @@
 ## 程序界面
 ![img](img/1.png)
 ## 使用
-下载zip后解压，随便放在那里，会根据注册表找原神装在那里了。  
+[下载](https://github.com/manakanemu/genshintool/releases/)zip后解压，随便放在那里，会根据注册表找原神装在那里了。  
 1. 双击“Genshin Toll.exe”打开工具
 1. 软件打开时会启动原神
 2. 选择“4. 关闭游戏”可以把游戏、工具箱、和原神启动器三者都关了

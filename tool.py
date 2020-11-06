@@ -201,6 +201,7 @@ ctypes.windll.shcore.SetProcessDpiAwareness(1)
 ScaleFactor=ctypes.windll.shcore.GetScaleFactorForDevice(0)
 
 window = tk.Tk()
+window.title('Genshin Tool')
 window.maxsize(400,300)
 window.minsize(400,300)
 window.tk.call('tk', 'scaling', ScaleFactor/75)
@@ -208,31 +209,4 @@ genshin = Genshin(window)
 
 
 window.mainloop()
-
-# if not genshin.is_prepare:
-#     # genshin.launcher_game()
-#     pass
-#
-# while True:
-#
-#     genshin.show_info()
-#
-#
-#     if op == '1':
-#         genshin.clean_model()
-#         continue
-#
-#     if op == '2':
-#         genshin.swich_peace()
-#         continue
-#     if op == '3':
-#         genshin.swich_half_volume()
-#         continue
-#
-#     if op == '4':
-#         genshin.close_game()
-#         exit(0)
-#
-#     genshin.info_message = '\n'
-
 

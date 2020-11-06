@@ -130,7 +130,6 @@ class Genshin(ttk.Frame):
         self.bind_all('<KeyPress>',self.keypress)
 
     def keypress(self,key):
-        print(key)
         if key.keycode == 49:
             self.clean_model()
         if key.keycode == 50:
@@ -140,14 +139,6 @@ class Genshin(ttk.Frame):
         if key.keycode == 52:
             self.close_game()
 
-
-    def show_info(self):
-        os.system('cls')
-
-        variable = vars(self)
-        var_info = {info:variable[info] for info in variable if info.startswith('info_')}
-        for info in var_info:
-            print(var_info[info],end='')
 
     def swich_peace(self):
         if self.peace:

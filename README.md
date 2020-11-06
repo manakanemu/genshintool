@@ -19,4 +19,4 @@
 ## 其他
 1. 最近写python比较顺手，就直接用python实现了，打包出来肯定比c和c#写的大，硬伤
 2. 随手写的工具，没有美化ui
-3. 如果需要自行编译，请在编译时加上uac许可，例如$pyinstaller -D -w tool.py --uac-admin$
+3. 如果需要自行编译，请在编译时加上uac许可，例如` pyinstaller -D -w tool.py --uac-admin `
